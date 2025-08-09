@@ -1,0 +1,17 @@
+export const countries = [
+  { name: 'United States', coordinates: [37.0902, -95.7129] },
+  { name: 'Canada', coordinates: [56.1304, -106.3468] },
+  { name: 'Mexico', coordinates: [23.6345, -102.5528] },
+  { name: 'Brazil', coordinates: [-14.235, -51.9253] },
+  { name: 'Argentina', coordinates: [-38.4161, -63.6167] },
+  { name: 'United Kingdom', coordinates: [55.3781, -3.436] },
+  { name: 'France', coordinates: [46.6033, 1.8883] },
+  { name: 'Germany', coordinates: [51.1657, 10.4515] },
+  { name: 'Spain', coordinates: [40.4637, -3.7492] },
+  { name: 'Italy', coordinates: [41.8719, 12.5674] },
+  { name: 'China', coordinates: [35.8617, 104.1954] },
+  { name: 'India', coordinates: [20.5937, 78.9629] },
+  { name: 'Japan', coordinates: [36.2048, 138.2529] },
+  { name: 'Australia', coordinates: [-25.2744, 133.7751] },
+  { name: 'South Africa', coordinates: [-30.5595, 22.9375] },
+];

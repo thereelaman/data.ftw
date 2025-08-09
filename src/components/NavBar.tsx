@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import {
@@ -18,12 +19,12 @@ const NavBar = () => {
         <Input type="search" placeholder="Search..." className="w-64" />
       </div>
       <div className="flex items-center space-x-4">
-        <a href="/about" className="text-gray-600 hover:text-gray-900">
+        <Link href="/about/" className="text-gray-300 hover:text-white">
           About
-        </a>
-        <a href="/support" className="text-gray-600 hover:text-gray-900">
+        </Link>
+        <Link href="/support/" className="text-gray-300 hover:text-white">
           Support
-        </a>
+        </Link>
         <Dialog>
           <DialogTrigger asChild>
             <Button variant="outline">Found Some Data Missing?</Button>
